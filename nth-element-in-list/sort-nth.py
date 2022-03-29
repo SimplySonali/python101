@@ -5,6 +5,7 @@
 li = [31,2,34,4,34,2,6,5,21,34,34,34,6,5,35,12,6,1,10,34,21]
 #li = [1,1,1,2,2,0,-5,-1,3]
 #li = ['cat','dog','cow']
+
 def nth (li,h,l) :
 #Sorting the array in descending order
    for i in range(1,len(li)) :
@@ -36,4 +37,5 @@ def nth (li,h,l) :
        print ('The {} lowest element is {}'.format(l,newli[len(newli)-l]))
    print ('The dictionary is {}'.format(D))
 
+   # Pass the list, h highest and l lowest elements. @nd highest and 5th lowest
 nth (li,2,5)
